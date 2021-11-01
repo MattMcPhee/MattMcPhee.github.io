@@ -1,5 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import '../scss/custom.scss'
+
 import NavBar from '../components/NavBar'
 import Home from '../components/Home'
 import Projects from '../components/Projects'
@@ -9,7 +11,7 @@ import NotFound from '../components/NotFound'
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='App container shadow-lg p-0 mb-5 mt-5 bg-white rounded'>
       <Router>
         <NavBar></NavBar>
         <Switch>

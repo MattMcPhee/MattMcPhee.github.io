@@ -1,7 +1,20 @@
 import React from 'react'
 
 const Projects = () => {
-  return <div>This is where you can find all my previous projects.</div>
+  return (
+    <div className='container'>
+      <div className='row'>
+        <div className='col'></div>
+        <div className='col'></div>
+        <div className='col'></div>
+      </div>
+      <div className='row'>
+        <div className='col'></div>
+        <div className='col'></div>
+        <div className='col'></div>
+      </div>
+    </div>
+  )
 }
 
 export default Projects
